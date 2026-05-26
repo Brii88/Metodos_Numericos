@@ -20,7 +20,10 @@ El curso se divide en las siguientes unidades temáticas:
 
 * **Tema 1:** Introducción a los métodos numéricos.
 * **Tema 2:** Métodos de solución de ecuaciones.
-
+* **Tema 3:** Métodos de solución de sistemas deecuaciones.
+* **Tema 4:** Diferenciación e integración numérica.
+* **Tema 5:** Interpolación  yajuste de funciones.
+* **Tema 6:** Solución de ecuaciones diferenciales.
 ---
 
 ## Desarrollo

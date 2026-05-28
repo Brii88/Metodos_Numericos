@@ -22,7 +22,7 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
       MOSTRAR suma
     FIN
     ```
-*  **[Ver Código: Acumulación de Errores](../Codigos/Acumulacion_errores)**
+*  **[Ver Código: Acumulación de Errores](Codigos/Acumulacion_errores)**
 
 ---
 

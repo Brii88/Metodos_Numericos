@@ -15,6 +15,11 @@ Los métodos numéricos son técnicas mediante las cuales es posible formular pr
 3. Repetir la suma 10 veces.
 4. Mostrar el resultado y observar la precisión decimal.
 
+##  Ejemplos de este tema
+> [!TIP]
+> Puedes ver la implementación de errores de precisión, cancelación catastrófica y overflow aquí:
+> *  **[Ver Código: Errores y Precisión](Codigos)**
+
 **Pseudocódigo:**
 ```text
 INICIO
@@ -24,8 +29,3 @@ INICIO
   FIN PARA
   ESCRIBIR suma
 FIN
-
-##  Ejemplos de este tema
-> [!TIP]
-> Puedes ver la implementación de errores de precisión, cancelación catastrófica y overflow aquí:
-> *  **[Ver Código: Errores y Precisión](Codigos)**

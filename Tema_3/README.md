@@ -3,6 +3,10 @@
 ##  Concepto e Introducción
 Consiste en resolver un conjunto de ecuaciones simultáneas. Se dividen en métodos directos (como Gauss-Jordan) y métodos iterativos (como Jacobi o Gauss-Seidel) que se aproximan a la solución en cada paso.
 
+##  Fórmulas Principales
+* **Método de Jacobi:** $x_i^{(k+1)} = \frac{b_i - \sum_{j \neq i} a_{ij} x_j^{(k)}}{a_{ii}}$
+* **Gauss-Seidel:** Utiliza los valores ya actualizados de la iteración actual para acelerar la convergencia.
+
 ##  Algoritmo (Gauss-Jordan)
 1. Para cada fila (pivote):
 2. Normalizar la fila dividiendo entre el elemento de la diagonal.

@@ -27,7 +27,7 @@ Este tema se enfoca en encontrar los valores de $x$ (raíces) que satisfacen la 
       RETORNAR xr
     FIN
     ```
-*  **[Ver Códigos: Bisección](Codigos/Biseccion.py)**
+*  **[Ver Códigos: Bisección](Codigos/Biseccion)**
 
 ---
 
@@ -52,7 +52,7 @@ Este tema se enfoca en encontrar los valores de $x$ (raíces) que satisfacen la 
       RETORNAR xn
     FIN
     ```
-*  **[Ver Códigos: Newton-Raphson](Codigos/Newton.py)**
+*  **[Ver Códigos: Newton-Raphson](Codigos/Newton)**
 
 ---
 
@@ -75,7 +75,7 @@ Este tema se enfoca en encontrar los valores de $x$ (raíces) que satisfacen la 
       RETORNAR xr
     FIN
     ```
-*  **[Ver Códigos: Regla Falsa](Codigos/Regla_Falsa.py)**
+*  **[Ver Códigos: Regla Falsa](Codigos/Regla_Falsa)**
 
 ---
 
@@ -99,7 +99,7 @@ Este tema se enfoca en encontrar los valores de $x$ (raíces) que satisfacen la 
       RETORNAR x1
     FIN
     ```
-*  **[Ver Códigos: Secante](Codigos/Secante.py)**
+*  **[Ver Códigos: Secante](Codigos/Secante)**
 
 ---
 

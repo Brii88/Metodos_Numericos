@@ -23,7 +23,7 @@ La integración numérica consiste en un conjunto de algoritmos que permiten cal
       MOSTRAR I
     FIN
     ```
-*  **[Ver Código: Simpson 1/3](Codigos/Metodo_simpson_1)**
+*  **[Ver Códigos: Simpson 1/3](Codigos/Metodo_simpson_1)**
 
 ---
 
@@ -46,7 +46,7 @@ La integración numérica consiste en un conjunto de algoritmos que permiten cal
       MOSTRAR I
     FIN
     ```
-*  **[Ver Código: Simpson 3/8](Codigos/Metodo_simpson_2)**
+*  **[Ver Códigos: Simpson 3/8](Codigos/Metodo_simpson_2)**
 
 ---
 
@@ -65,7 +65,7 @@ La integración numérica consiste en un conjunto de algoritmos que permiten cal
       MOSTRAR I
     FIN
     ```
-*  **[Ver Código: Método del Trapecio](Codigos/Metodo_trapecio)**
+*  **[Ver Códigos: Método del Trapecio](Codigos/Metodo_trapecio)**
 
 ---
 
@@ -86,7 +86,7 @@ La integración numérica consiste en un conjunto de algoritmos que permiten cal
       MOSTRAR resultado
     FIN
     ```
-*  **[Ver Código: Regla de 3 Puntos](Codigos/Regla_3_puntos)**
+*  **[Ver Códigos: Regla de 3 Puntos](Codigos/Regla_3_puntos)**
 
 ---
 

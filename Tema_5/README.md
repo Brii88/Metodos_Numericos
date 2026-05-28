@@ -23,7 +23,7 @@ El ajuste de funciones busca encontrar una expresión matemática que describa m
       ESCRIBIR r
     FIN
     ```
-*  **[Ver Código: Correlación](Codigos/Correlacion)**
+*  **[Ver Códigos: Correlación](Codigos/Correlacion)**
 
 ---
 
@@ -42,7 +42,7 @@ El ajuste de funciones busca encontrar una expresión matemática que describa m
       ESCRIBIR y
     FIN
     ```
-*  **[Ver Código: Interpolación Lineal](Codigos/Interpolacion_lineal)**
+*  **[Ver Códigos: Interpolación Lineal](Codigos/Interpolacion_lineal)**
 
 ---
 
@@ -63,7 +63,7 @@ El ajuste de funciones busca encontrar una expresión matemática que describa m
       ESCRIBIR y
     FIN
     ```
-*  **[Ver Código: Interpolación Cuadrática](Codigos/Interpolacion_cuadratica)**
+*  **[Ver Códigos: Interpolación Cuadrática](Codigos/Interpolacion_cuadratica)**
 
 ---
 
@@ -82,7 +82,7 @@ El ajuste de funciones busca encontrar una expresión matemática que describa m
       RETORNAR y
     FIN
     ```
-*  **[Ver Código: Interpolación Segmentada](Codigos/Interpolacion_segmentada)**
+*  **[Ver Códigos: Interpolación Segmentada](Codigos/Interpolacion_segmentada)**
 
 ---
 
@@ -102,7 +102,7 @@ El ajuste de funciones busca encontrar una expresión matemática que describa m
       ESCRIBIR "Ecuación: y = a0 + a1x"
     FIN
     ```
-*  **[Ver Código: Regresión](Codigos/Regresion)**
+*  **[Ver Códigos: Regresión](Codigos/Regresion)**
 
 ---
 

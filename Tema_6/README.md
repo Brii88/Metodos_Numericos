@@ -78,6 +78,14 @@ Las ecuaciones diferenciales ordinarias (EDO) relacionan una función desconocid
     ```
 *  **[Ver Código: Runge-Kutta](Codigos/Runge.py)**
 
+### 🌸 Visualización en Movimiento
+
+Aquí puedes ver una demostración de cómo los tres métodos se aproximan a la solución real. Nota cómo el método RK4 (la línea rosa más oscura con puntitos) es el más preciso.
+
+![Animación de Métodos Numéricos](demo_metodos.gif)
+
+> *Tip: Si quieres ver la gráfica interactiva real y pasar el mouse sobre ella, [haz clic aquí](https://brii88.github.io/Metodos_Numericos/).*
+
 ---
 
 > [!TIP]

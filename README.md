@@ -18,12 +18,12 @@ Esta asignatura aporta al perfil del ingeniero la capacidad de aplicar **Método
 ## Contenido y Temas Cubiertos
 El curso se divide en las siguientes unidades temáticas:
 
-*  **[Tema 1: Introducción a los métodos numéricos](README.md/Tema_1)**
-*  **[Tema 2: Métodos de solución de ecuaciones](Tema_2)**
-*  **[Tema 3: Métodos de solución de sistemas de ecuaciones.](Tema_3)**
-*  **[Tema 4: Diferenciación e integración numérica](Tema_4)**
-*  **[Tema 5: Interpolación y ajuste de funciones](Tema_5)**
-*  **[Tema 6: Solución de ecuaciones diferenciales](Tema_6)**
+*  **[Tema 1: Introducción a los métodos numéricos](Tema_1/README.md)**
+*  **[Tema 2: Métodos de solución de ecuaciones](Tema_2/README.md)**
+*  **[Tema 3: Métodos de solución de sistemas de ecuaciones](Tema_3/README.md)**
+*  **[Tema 4: Diferenciación e integración numérica](Tema_4/README.md)**
+*  **[Tema 5: Interpolación y ajuste de funciones](Tema_5/README.md)**
+*  **[Tema 6: Solución de ecuaciones diferenciales](Tema_6/README.md)**
   
 ---
 

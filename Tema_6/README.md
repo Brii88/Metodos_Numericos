@@ -26,7 +26,7 @@ Las ecuaciones diferenciales ordinarias (EDO) relacionan una función desconocid
       FIN PARA
     FIN
     ```
-*  **[Ver Código: Euler](Codigos/Euler.py)**
+*  **[Ver Códigos: Euler](Codigos/Euler)**
 
 ---
 
@@ -49,7 +49,7 @@ Las ecuaciones diferenciales ordinarias (EDO) relacionan una función desconocid
       FIN PARA
     FIN
     ```
-*  **[Ver Código: Taylor](Codigos/Taylor.py)**
+*  **[Ver Códigos: Taylor](Codigos/Taylor)**
 
 ---
 
@@ -76,7 +76,7 @@ Las ecuaciones diferenciales ordinarias (EDO) relacionan una función desconocid
       FIN PARA
     FIN
     ```
-*  **[Ver Código: Runge-Kutta](Codigos/Runge.py)**
+*  **[Ver Códigos: Runge-Kutta](Codigos/Runge)**
 
 ###  Visualización en Movimiento de la comparación
 

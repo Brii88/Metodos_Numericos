@@ -1,4 +1,4 @@
-# Tema 5: Ajuste de Curvas e Interpolación
+# Tema 5: Interpolación y ajuste de funciones
 
 ##  Concepto e Introducción
 El ajuste de curvas busca una función que mejor represente un conjunto de datos. La **Regresión** se usa cuando hay incertidumbre en los datos, mientras que la **Interpolación** se usa cuando queremos que la curva pase exactamente por todos los puntos.

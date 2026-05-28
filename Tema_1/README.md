@@ -144,5 +144,5 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
 
 ---
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Todos los ejemplos prácticos de estos conceptos se encuentran en la carpeta de códigos general del repositorio.

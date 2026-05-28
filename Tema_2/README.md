@@ -1,6 +1,4 @@
----
-
-### Tema 2: Métodos de Solución de Ecuaciones
+# Tema 2: Métodos de Solución de Ecuaciones
 
 ##  Concepto e Introducción
 Este tema trata sobre encontrar las "raíces" o soluciones de ecuaciones no lineales de la forma $f(x) = 0$. Utilizamos métodos cerrados (que aseguran convergencia en un intervalo) y métodos abiertos (más rápidos pero que pueden divergir).

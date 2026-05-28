@@ -29,7 +29,7 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
 ## 2. Cancelación por Resta (Catastrófica)
 **Concepto:** Pérdida de dígitos significativos al restar dos números casi iguales, donde el error relativo se dispara.
 
-* **Fórmula:** $Error = |(a - b) - \text{valor\_real}|$
+* **Fórmula:** $Error = |(a - b) - \text{Valor Real}|$
 * **Algoritmo:**
     1. Definir dos valores con mínima diferencia decimal.
     2. Restar el valor `b` del valor `a`.

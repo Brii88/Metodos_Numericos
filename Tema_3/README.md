@@ -26,7 +26,7 @@ Este tema se enfoca en resolver sistemas de ecuaciones lineales de la forma $Ax 
       FIN PARA
     FIN
     ```
-*  **[Ver Código: Gauss-Jordan](Codigos/Eliminacion_Gauss_Jordan)**
+*  **[Ver Códigos: Gauss-Jordan](Codigos/Eliminacion_Gauss_Jordan)**
 
 ---
 
@@ -49,7 +49,7 @@ Este tema se enfoca en resolver sistemas de ecuaciones lineales de la forma $Ax 
       Sustitución_Hacia_Atrás()
     FIN
     ```
-*  **[Ver Código: Eliminación Gaussiana](Codigos/Eliminacion_Gaussiana)**
+*  **[Ver Códigos: Eliminación Gaussiana](Codigos/Eliminacion_Gaussiana)**
 
 ---
 
@@ -78,7 +78,7 @@ Este tema se enfoca en resolver sistemas de ecuaciones lineales de la forma $Ax 
       FIN MIENTRAS
     FIN
     ```
-*  **[Ver Código: Jacobi](Codigos/Jacobi)**
+*  **[Ver Códigos: Jacobi](Codigos/Jacobi)**
 
 ---
 
@@ -103,7 +103,7 @@ Este tema se enfoca en resolver sistemas de ecuaciones lineales de la forma $Ax 
       FIN MIENTRAS
     FIN
     ```
-*  **[Ver Código: Gauss-Seidel](Codigos/Gauss_Seidel)**
+*  **[Ver Códigos: Gauss-Seidel](Codigos/Gauss_Seidel)**
 
 ---
 

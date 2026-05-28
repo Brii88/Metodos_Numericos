@@ -140,7 +140,7 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
       SI resultado == grande ENTONCES "Perdió precisión"
     FIN
     ```
-*  **[Ver Código: Pérdida de Precisión](../Codigos/Perdida_precision)**
+*  **[Ver Código: Pérdida de Precisión](Codigos/Perdida_precision)**
 
 ---
 

@@ -43,7 +43,7 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
       ESCRIBIR resultado
     FIN
     ```
-*  **[Ver Código: Cancelación Resta](../Codigos/Cancelacion_resta)**
+*  **[Ver Código: Cancelación Resta](Codigos/Cancelacion_resta)**
 
 ---
 
@@ -62,7 +62,7 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
       SI a == b ENTONCES "Iguales" SINO "Diferentes"
     FIN
     ```
-*  **[Ver Código: Comparación Directa](../Codigos/Comparacion_directa)**
+*  **[Ver Código: Comparación Directa](Codigos/Comparacion_directa)**
 
 ---
 
@@ -82,7 +82,7 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
       ESCRIBIR perdida
     FIN
     ```
-*  **[Ver Código: Conversión Estrecha](../Codigos/Conversion_estrecha)**
+*  **[Ver Código: Conversión Estrecha](Codigos/Conversion_estrecha)**
 
 ---
 
@@ -102,7 +102,7 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
       MOSTRAR suma
     FIN
     ```
-*  **[Ver Código: Desbordamiento Silencioso](../Codigos/Desbordamiento_silencioso)**
+*  **[Ver Código: Desbordamiento Silencioso](Codigos/Desbordamiento_silencioso)**
 
 ---
 
@@ -120,7 +120,7 @@ Los métodos numéricos son procedimientos mediante los cuales se obtienen soluc
       ESCRIBIR resultado
     FIN
     ```
-*  **[Ver Código: Error de Redondeo](../Codigos/Error_redondeo)**
+*  **[Ver Código: Error de Redondeo](Codigos/Error_redondeo)**
 
 ---
 

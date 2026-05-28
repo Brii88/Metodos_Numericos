@@ -22,8 +22,9 @@ El curso se divide en las siguientes unidades temáticas:
 *  **[Tema 2: Métodos de solución de ecuaciones](Tema_2)**
 *  **[Tema 3: Métodos de solución de sistemas de ecuaciones.](Tema_3)**
 *  **[Tema 4: Diferenciación e integración numérica](Tema_4)**
-*  **[Tema 5: Interpolación  yajuste de funciones](Tema_5)**
+*  **[Tema 5: Interpolación y ajuste de funciones](Tema_5)**
 *  **[Tema 6: Solución de ecuaciones diferenciales](Tema_6)**
+  
 ---
 
 ## Desarrollo

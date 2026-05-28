@@ -14,8 +14,9 @@ Consiste en resolver un conjunto de ecuaciones simultáneas. Se dividen en méto
 4. La matriz resultante contiene las soluciones directamente.
 
 ##  Ejemplos del Tema
-Implementaciones de eliminación y métodos iterativos:
-* 🔗 [Ver códigos de Sistemas Lineales](Codigos)
+> [!TIP]
+>Implementaciones de eliminación y métodos iterativos:
+>*  [Ver códigos de Sistemas Lineales](Codigos)
 
 **Pseudocódigo:**
 ```text

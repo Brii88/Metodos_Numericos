@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos Numéricos - Euler, RK4 y Taylor</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #fff0f5; color: #333; margin: 20px; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1, h2 { color: #d81b60; text-align: center; }
+        .formula { background: #ffe4e1; padding: 15px; border-left: 5px solid #ff69b4; margin: 10px 0; font-family: 'Courier New', Courier, monospace; }
+        #plot { width: 100%; height: 500px; }
+        .summary { margin-top: 20px; line-height: 1.6; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ffb6c1; padding: 8px; text-align: left; }
+        th { background-color: #ffc0cb; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Comparación de Métodos Numéricos</h1>
+    <p>Resolviendo la EDO: <i>dy/dx = y - x² + 1</i> con <i>y(0) = 0.5</i></p>
+
+    <div id="plot"></div>
+
+    <h2>Resumen de Fórmulas</h2>
+    
+    <div class="formula">
+        <strong>1. Euler (Orden 1):</strong><br>
+        $y_{n+1} = y_n + h \cdot f(x_n, y_n)$
+    </div>
+
+    <div class="formula">
+        <strong>2. Taylor (Orden 2):</strong><br>
+        $y_{n+1} = y_n + h \cdot f + \frac{h^2}{2} \cdot f'$
+    </div>
+
+    <div class="formula">
+        <strong>3. Runge-Kutta (RK4):</strong><br>
+        $y_{n+1} = y_n + \frac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4)$
+    </div>
+
+    <div class="summary">
+        <h2>¿Cuál es mejor?</h2>
+        <table>
+            <tr>
+                <th>Método</th>
+                <th>Precisión</th>
+                <th>Complejidad</th>
+            </tr>
+            <tr>
+                <td>Euler</td>
+                <td>Baja (Error propaga rápido)</td>
+                <td>Muy simple</td>
+            </tr>
+            <tr>
+                <td>Taylor (O2)</td>
+                <td>Media</td>
+                <td>Requiere calcular derivadas</td>
+            </tr>
+            <tr>
+                <td>RK4</td>
+                <td>Muy Alta</td>
+                <td>Más cálculos por paso, pero muy estable</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script>
+    // Configuración inicial
+    const f = (x, y) => y - x**2 + 1;
+    const df = (x, y) => y - x**2 + 1 - 2*x; // Derivada para Taylor O2
+    const exact = (x) => (x + 1)**2 - 0.5 * Math.exp(x); // Solución real
+
+    const h = 0.2; // Tamaño del paso
+    const steps = 10;
+    let x_vals = [0], y_euler = [0.5], y_rk4 = [0.5], y_taylor = [0.5], y_real = [0.5];
+
+    for (let i = 0; i < steps; i++) {
+        let x = x_vals[i];
+        let ye = y_euler[i];
+        let yrk = y_rk4[i];
+        let yt = y_taylor[i];
+
+        // 1. Euler
+        y_euler.push(ye + h * f(x, ye));
+
+        // 2. Taylor Orden 2
+        y_taylor.push(yt + h * f(x, yt) + (Math.pow(h, 2) / 2) * df(x, yt));
+
+        // 3. RK4
+        let k1 = f(x, yrk);
+        let k2 = f(x + h/2, yrk + h*k1/2);
+        let k3 = f(x + h/2, yrk + h*k2/2);
+        let k4 = f(x + h, yrk + h*k3);
+        y_rk4.push(yrk + (h/6) * (k1 + 2*k2 + 2*k3 + k4));
+
+        x_vals.push(Number((x + h).toFixed(2)));
+        y_real.push(exact(x_vals[i+1]));
+    }
+
+    // Graficar con Plotly
+    const traces = [
+        { x: x_vals, y: y_real, name: 'Exacta (Real)', line: { color: '#C71585', width: 3 } },
+        { x: x_vals, y: y_euler, name: 'Euler', line: { color: '#FFB6C1', dash: 'dot' } },
+        { x: x_vals, y: y_taylor, name: 'Taylor O2', line: { color: '#FF69B4', dash: 'dash' } },
+        { x: x_vals, y: y_rk4, name: 'RK4', line: { color: '#DB7093' }, mode: 'lines+markers' }
+    ];
+
+    const layout = {
+        title: 'Aproximación de Métodos Numéricos',
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(255,240,245,0.5)',
+        xaxis: { title: 'X' },
+        yaxis: { title: 'Y' },
+        margin: { t: 50 }
+    };
+
+    Plotly.newPlot('plot', traces, layout);
+</script>
+
+</body>
+</html>

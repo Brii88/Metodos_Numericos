@@ -1,4 +1,4 @@
-# Tema 4: Diferenciación e Integración Numérica
+# Tema 4: Diferenciación e integración numérica
 
 ##  Concepto e Introducción
 La integración numérica (cuadratura) estima el área bajo una curva cuando la función es difícil de integrar analíticamente. Se divide el intervalo en segmentos y se aproxima el área de cada uno usando polinomios.

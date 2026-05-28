@@ -1,6 +1,6 @@
 # Tema 1: Introducción a los Métodos Numéricos
 
-## 📖 Concepto e Introducción
+##  Concepto e Introducción
 Los métodos numéricos son técnicas mediante las cuales es posible formular problemas matemáticos de tal forma que puedan resolverse usando operaciones aritméticas. En sistemas computacionales, es vital entender cómo la computadora maneja los números de punto flotante, ya que esto introduce errores de redondeo y truncamiento.
 
 ##  Conceptos Clave

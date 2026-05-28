@@ -107,5 +107,5 @@ Este tema se enfoca en resolver sistemas de ecuaciones lineales de la forma $Ax 
 
 ---
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Para los métodos iterativos (Jacobi y Gauss-Seidel), el sistema debe ser **diagonalmente dominante** para asegurar que la solución converja.

@@ -1,4 +1,4 @@
-# Tema 3: Sistemas de Ecuaciones Lineales
+# Tema 3: Métodos de solución de sistemas de ecuaciones
 
 ##  Concepto e Introducción
 Consiste en resolver un conjunto de ecuaciones simultáneas. Se dividen en métodos directos (como Gauss-Jordan) y métodos iterativos (como Jacobi o Gauss-Seidel) que se aproximan a la solución en cada paso.
